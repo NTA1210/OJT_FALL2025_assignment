@@ -6,6 +6,16 @@
     <title>Document</title>
   </head>
   <body>
-    HELLO WORLD
+    <button id="btn">Click me</button>
+    <button id="btn2">Goodbye</button>
+    <script>
+      document.getElementById("btn").addEventListener("click", async () => {
+        alert("Hello");
+      });
+
+      document.getElementById("btn2").addEventListener("click", async () => {
+        alert("Goodbye");
+      });
+    </script>
   </body>
 </html>
